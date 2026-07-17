@@ -1,0 +1,11 @@
+/target:exe
+/out:dist\CloudDefender.exe
+src\Program.cs
+src\Core\ModuleBase.cs
+src\Core\Installer.cs
+src\Core\DashboardServer.cs
+src\Core\Resources.cs
+src\Modules\AutoDefenderModule.cs
+src\Modules\HoneypotModule.cs
+src\Modules\WebTrapModule.cs
+src\Modules\QuickResponseModule.cs
