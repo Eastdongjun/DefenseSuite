@@ -1,0 +1,36 @@
+{
+    "version": "1.0.0",
+    "install_dir": "C:\\Program Files\\DefenseSuite",
+    "log_dir": "C:\\ProgramData\\DefenseSuite\\logs",
+
+    "whitelist_ips": [
+        "113.132.220.221",
+        "220.195.83.129"
+    ],
+
+    "trap_ports": [3389, 22, 23, 21, 5900, 9200, 11211, 27017, 8088, 5432, 5555, 8443],
+
+    "web_trap_paths": [
+        "phpmyadmin", "phpMyAdmin", ".env", ".git",
+        "wp-admin", "wp-login", "sql", "dump", "backup",
+        "actuator", "solr", "jenkins", "manager/html",
+        ".DS_Store", "mysql", "db", "database", "HNAP1", "tmUnblock"
+    ],
+
+    "web_trap_ports": [80, 443, 8080, 8443, 8999, 9000, 9999],
+
+    "ban_config": {
+        "tier1_threshold": 2,
+        "tier2_threshold": 5,
+        "tier3_threshold": 10,
+        "ban_duration_hours": 24,
+        "lookback_minutes": 360
+    },
+
+    "rdp_port": 50022,
+
+    "log_settings": {
+        "max_log_size_mb": 100,
+        "retention_days": 30
+    }
+}

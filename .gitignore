@@ -1,0 +1,12 @@
+logs/
+*.log
+dist/DefenseSuite-Setup.exe
+dist/DefenseSuite-Setup.ps1
+dist/Bootstrapper.cs
+dist/DefenseSuite.sed
+dist/embedded_files.ps1
+*.suo
+*.user
+.vs/
+bin/
+obj/
