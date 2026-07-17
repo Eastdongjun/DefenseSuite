@@ -1,6 +1,11 @@
-/target:exe
+/target:winexe
 /out:dist\CloudDefender.exe
-src\Program.cs
+/reference:System.Windows.Forms.dll
+/reference:System.Drawing.dll
+/reference:System.Net.Http.dll
+src\App\Program.cs
+src\App\ControlPanel.cs
+src\App\SetupWizard.cs
 src\Core\ModuleBase.cs
 src\Core\Installer.cs
 src\Core\DashboardServer.cs
